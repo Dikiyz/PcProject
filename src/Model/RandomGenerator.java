@@ -17,7 +17,7 @@ public class RandomGenerator {
                 " 3. Сгенерироывать десять чисел. \n 4. Выйти.");
         chooseDo = sc.nextInt();
         switch (chooseDo) {
-            case 1 -> {
+            case 1 : {
                 System.out.println("От какого числа генерировать числа?");
                 min = sc.nextInt();
                 System.out.println("До какого числа генерировать числа?");
@@ -26,7 +26,7 @@ public class RandomGenerator {
 
                 rand.ints(1, min, max).sorted().forEach(System.out::println);
             }
-            case 2 -> {
+            case 2 : {
                 System.out.println("От какого числа генерировать числа?");
                 min = sc.nextInt();
                 System.out.println("До какого числа генерировать числа?");
@@ -35,7 +35,7 @@ public class RandomGenerator {
 
                 rand.ints(5, min, max).sorted().forEach(System.out::println);
             }
-            case 3 -> {
+            case 3 : {
                 System.out.println("От какого числа генерировать числа?");
                 min = sc.nextInt();
                 System.out.println("До какого числа генерировать числа?");

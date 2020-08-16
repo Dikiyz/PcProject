@@ -25,7 +25,7 @@ public class Password {
                 passwordIsTrue = true;
                 changeOrNot();
             } else {
-                System.out.println("Пароль введен не верно, попроьуйте заново!");
+                System.out.println("Пароль введен не верно, попробуйте заново!");
             }
         }
     }

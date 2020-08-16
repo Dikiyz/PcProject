@@ -12,21 +12,21 @@ public class Notepad {
         System.out.println("Что вы хотите сделать?: \n 1. Прочитать запись. \n 2. Сделать запись. \n 3. Выйти.");
         chooseDo = sc.nextInt();
         switch (chooseDo) {
-            case 1 -> {
+            case 1 : {
                 readText();
                 break;
             }
-            case 2 -> {
+            case 2 : {
                 writeText();
                 break;
             }
 
-            case 3 -> {
+            case 3 : {
                 Programms startProgramms = new Programms();
                 startProgramms.chooseProgramm();
                 break;
             }
-            default -> {
+            default : {
                 System.out.println("Вы вышли за пределы выбора! Попробуйте заного!");
                 startNotepad();
                 break;

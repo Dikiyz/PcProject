@@ -22,36 +22,36 @@ public class Calculator {
 
         switch (chooseOperation) {
 
-            case 1 -> {
+            case 1 : {
                 summa();
                 break;
             }
 
-            case 2 -> {
+            case 2 : {
                 raznost();
                 break;
             }
 
-            case 3 -> {
+            case 3 : {
                 proizvedenie();
                 break;
             }
 
-            case 4 -> {
+            case 4 : {
                 chastnoe();
                 break;
             }
 
-            case 5 -> {
+            case 5 : {
                 vseVmeste();
                 break;
             }
 
-            case 6 -> {
+            case 6 : {
                 break;
             }
 
-            default -> {
+            default : {
                 System.out.println("Вы вышли за пределы выбора! Попробуйте заного!");
                 startCalculator();
             }
